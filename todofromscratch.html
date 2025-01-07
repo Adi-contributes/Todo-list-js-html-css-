@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <input id="todoo" type="text"></input>
+        <button onclick="AddEle()"> Add Todo!</button>
+        <div id="Add">
+
+        </div>
+        
+    </body>
+    <script>
+    function AddEle()
+        {
+            
+            const idd = document.getElementById("todoo")
+            const vall = idd.value
+            const Neww = document.createElement("div")
+            const NewEle = document.getElementById("Add").appendChild(Neww)
+            Neww.innerHTML = vall
+            const deletebutton = document.createElement("button")
+            deletebutton.innerHTML = "Delete"
+            deletebutton.onclick = function() {
+                Neww.innerHTML = ""
+            }
+            Neww.appendChild(deletebutton)
+            document.getElementById("Add").appendChild(Neww);
+       
+        }
+            
+        
+        
+        
+        
+    </script>
+</html> 
