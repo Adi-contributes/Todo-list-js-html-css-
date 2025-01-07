@@ -1,1 +1,3 @@
 # Todo-list-js-html-css-
+Made a dynamic webpage for the first time and made a small project named To-Do List...
+This basically takes a TODO as an input and saves it onto the webpage. You get the option to Delete the Todo as and when required.
